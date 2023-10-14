@@ -1,0 +1,272 @@
+/* Stylesheet for Bina's World. */
+
+/* Color Palette List:
+Header Font - Eerie Black - 1B2021
+Header Background - Moss Green - A6A867
+Navbar Font - Eerie Black - 1B2021
+Navbar Background - Reseda Green - 7C7D52
+Navbar Background Hover - Moss Green 2 - 91935D
+Navbar Border - Dutch White - D4CFAC
+Navbar Active - Sage - C5C295
+Page Background - Pearl - E3DCC2
+Gallery Border - Dutch White - D4CFAC
+Gallery Border Hover - Ebony - 4C4F3A
+Navbar Dropdown Background - Moss Green - 878858
+*/
+
+/* All Colors (Dark to Light):
+#1B2021
+#34382E
+#4C4F3A
+#7C7D52
+#91935D
+#A6A867
+#C5C295
+#D4CFAC
+#E3DCC2 */
+
+/* BODY */
+body {
+	background-color: #E3DCC2;
+	font-family: "Viga";
+	margin: 0;
+	}
+.welcomebanner {
+	text-align: center;
+	color: #E3DCC2;
+	padding: 200px;
+	top: 0px;
+	width: 100%;
+	background-image: url(https://gifdb.com/images/high/brown-aesthetic-train-xtypg4id5jpqjogf.gif);
+	}
+a {
+	color: #1B2021;
+	}
+a:hover {
+	color: rgba(162,109,61,1);
+	}
+/* HEADER */
+h1 {
+	text-align: center;
+	}
+#title {
+	font-family: "Bagel Fat One";
+	color: #1B2021;
+	}
+header {
+	position: sticky;
+	top: 0;
+	width: 100%;
+	}
+.header {
+	/* backup background-color: ##A6A867 */
+	background: rgb(166,168,103);
+	background: linear-gradient(90deg, rgba(166,168,103,1) 0%, rgba(162,109,61,1) 100%);
+	text-align: center;
+	padding: 1px;
+	}
+.header h5 {
+	color: #34382E;
+	}
+.navbar {
+	background-color: #7C7D52;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	}
+.navlink {
+	display: inline;
+	float: left;
+	font-family: "Viga";
+	border-right: 1px solid #D4CFAC;
+	}
+#homenav, #kpopnav, #plantsnav, #teanav, #booksnav, #witchcraftnav, #sociologynav {
+	display: block;
+	color: #1B2021;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	}
+#headerhomelink {
+	text-decoration: none;
+}
+#homenav:hover, #kpopnav:hover, #plantsnav:hover, #teanav:hover, #booksnav:hover, #witchcraftnav:hover, #sociologynav:hover, #crystalsnav:hover, #herbsnav:hover, #deitiesnav:hover, #tarotnav:hover, #spellsnav:hover {
+	background-color: #91935D;
+	visibility: visible;
+	}
+.active {
+	background-color: #C5C295;
+	}
+.dropdown {
+	visibility: hidden;
+	position: absolute;
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background-color: #878858;
+	min-width: 150px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	}
+#crystalsnav, #herbsnav, #deitiesnav, #tarotnav, #spellsnav {
+	text-decoration: none;
+	text-align: left;
+	display: block;
+	color: #1B2021;
+	padding-top: 1px;
+	padding-left: 10px;
+	float: none;
+	}
+.navlink:hover ul {
+	visibility: visible;
+	}
+/* PLANT PAGES */
+.blockquote {
+	background-color: #D4CFAC;
+	border-radius: 30px;
+	}
+#commonnamelink {
+	color: #1B2021;
+	}
+#commonnamelink:hover {
+	color: rgba(162,109,61,1);
+	}
+.plantinfo {
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+.citations h3 {
+	text-align: center;
+	}
+.citations p{
+	font-family: "Times New Roman";
+	}
+/* RESPONSIVE GALLERY */
+#galleryheader {
+	text-align: center;
+	}
+div.gallery {
+	border: 1px solid #D4CFAC;
+	}
+div.gallery:hover {
+	border: 1px solid #4C4F3A;
+	}
+div.gallery img {
+	width: 100%;
+	height: auto;
+	}
+div.desc {
+	padding: 15px;
+	text-align: center;
+	}
+* {
+	box-sizing: border-box;
+	}
+.responsive {
+	padding: 0 6px;
+	float: left;
+	width: 24.99999%;
+	}
+@media only screen and (max-width: 500px) {
+	.responsive {
+		width: 49.99999%;
+		margin: 6px 0;
+		}
+	}
+@media only screen and (max-width: 500px) {
+	.responsive {
+		width: 100%;
+		}
+	}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+	}
+/* PLANT PIC */
+.plantpic {
+	text-align: center;
+	background-color: #D4CFAC;
+	border-radius: 50%;
+	}
+.plantpic img {
+	border-radius: 15px;
+	}
+.plantdesc h3 {
+	text-align: center;
+	}
+/* TAB HOME PAGE */
+.tabhomepagebody {
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+/* WITCHCRAFT HOME PAGE */
+.witchcrafthomepagebanner {
+	padding: 200px;
+	background-image: url(https://cutewallpaper.org/26/aesthetic-bedroom-gif-wallpaper/gamer39s-room-—-chantal-horeis-in-2021-cute-wallpaper-backgrounds-anime-background-gamer-room.gif);
+	}
+.witchcrafthomepagebanner h2 {
+	text-align: center;
+	font-family: "Bagel Fat One";
+	letter-spacing: 20px;
+	background-color: #D4CFAC;
+	border: 7px dotted #7C7D52;
+	padding: 20px;
+	width: 65%;
+	margin: auto;
+	}
+/* SOCIOLOGY HOME PAGE */
+.sociologyhomepagebanner {
+	padding: 200px;
+	background-image: url(https://i.pinimg.com/originals/19/6a/d9/196ad9d3122098b297d7b99ce9ff209f.gif);
+	}
+.sociologyhomepagebanner h2 {
+	text-align: center;
+	font-family: "Bagel Fat One";
+	letter-spacing: 20px;
+	background-color: #D4CFAC;
+	border: 7px solid #7C7D52;
+	padding: 20px;
+	width: 65%;
+	margin: auto;
+	}
+/* PLANT HOME PAGE */
+.plantshomepagebanner h2 {
+	text-align: center;
+	font-family: "Bagel Fat One";
+	letter-spacing: 20px;
+	background-color: #D4CFAC;
+	border: 7px double #7C7D52;
+	padding: 20px;
+	width: 65%;
+	margin: auto;
+	}
+.plantshomepagebanner {
+	padding: 200px;
+	background-image: url(https://cdna.artstation.com/p/assets/images/images/058/250/400/original/ryan-haight-west-queenanne-large.gif?1673727429);
+	}
+#planthomepagelist h4, ul {
+	font-style: italic;
+	}
+#plantlist a {
+	color: #1B2021;
+	}
+#plantlist a:hover {
+	color: rgba(162,109,61,1);
+	}
+/* FOOTER */
+.footer {
+	background-color: #D4CFAC;
+	padding: 1px;
+	text-align: center;
+	}
+.footer a {
+	text-decoration: none;
+	color: #1B2021;
+	}
+
+.footer a:hover {
+	color: rgba(162,109,61,1);
+	}
